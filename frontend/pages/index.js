@@ -45,6 +45,9 @@ export default function Home() {
         <option value="es">Spanish</option>
         <option value="fr">French</option>
         <option value="de">German</option>
+        <option value="ar">Arabic</option>
+        <option value="en">English</option>
+        <option value="ur">Urdu</option>
       </select>
 
       <button onClick={handleTranslate} className="mt-2 px-4 py-2 bg-green-500 text-white rounded-md">Translate</button>
